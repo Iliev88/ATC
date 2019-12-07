@@ -1,6 +1,6 @@
 # ATC
 
-A demo test filling a form implmented with Protractor and Cucumber.
+A demo test filling a form implemented with Protractor and Cucumber.
 
 To run it:
 
