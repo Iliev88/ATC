@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "protocol": "inspector",
+      "console": "integratedTerminal",
+      "name": "Launch Features",
+      "stopOnEntry": false,
+      "preLaunchTask": "npm: build",
+      "program": "${workspaceFolder}/node_modules/protractor/bin/protractor",
+      "args": [
+        "${workspaceRoot}/build/conf.js",
+        "--suite",
+        "demo"
+      ],
+      "cwd": "${workspaceFolder}",
+      "runtimeArgs": [
+        "--nolazy"
+      ],
+      "sourceMaps": true,
+      "internalConsoleOptions": "openOnSessionStart",
+      "outFiles": [
+        "./build"
+      ],
+      "env": {
+        "NODE_DEBUG": "@*",
+      }
+    }
+  ]
+}
