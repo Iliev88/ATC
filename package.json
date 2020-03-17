@@ -31,7 +31,7 @@
     "dotenv": "^8.0.0",
     "glob": "^7.1.4",
     "js2xmlparser": "^4.0.0",
-    "minimist": "1.2.0",
+    "minimist": "1.2.5",
     "path": "^0.12.7",
     "protractor": "^5.4.2",
     "q": "^1.5.1",
